@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="876 X 514, initial-scale=1.0">
+    <title>Display in HTML</title>
+<style>
+*{
+    box-sizing :border box;
+}
+body {
+    font-family: Aerial, Helvtica, sans-serif;
+}
+/* style the header */
+header {
+    background-color : #666;
+    padding : 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white
+}
+/*create two columns/boxes that float next to each other */
+nav {
+    float: float left;
+    width : 30%;
+    height : 300px; /* only for demonstration , should be removed */
+    background : #ccc;
+    padding : 20px
+}
+/* style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding : 0;
+}
+article {
+    float : left;
+    padding : 20px;
+    width : 70% ;
+    background-color: #f1f1f1;
+    height : 300px; /* only for demonstration , should be removed*/
+}
+/* clear floats after columns */
+section:after {
+    content: "";
+    display: table;
+    clear : both;
+}
+/* style the footer */
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+/* responsive layout- makes the two columns/boxes stack on top of each other instead of next to each other on small  screens */
+@media (max-width : 600px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+}
+</style>
+</head>
+<body>
+
+    <h2>CSS LAYOUT FLOAT</h2>
+    <p>DAmn this thing is confusing</p>
+    <p>Resize and blah blah.....damn! </p>
+    <header>
+        <h2>Cities</h2>
+    </header>
+    <section>
+        <nav>
+         <ul>
+             <li><a href ="#">london</a></li>
+             <li><a href="#">Paris</a></li>
+             <li><a href="#">Kampala</a></li>
+         </ul>
+        </nav>
+    <article>
+        <h1>Kampala</h1>
+        <p>Kampala is the capital city of Uganda. It is the most populated of all the cities in Uganda</p>
+        <p>It holds the country's most business set ups and is therefore considered the country's heart of "Business"</p>
+    </article>
+    </section>
+    <footer>
+        <p style="COLOR:RED">PREPARED BY ARTHUR</p>
+    </footer>
+</body>
+</html>
