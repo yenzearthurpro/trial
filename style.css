@@ -1,115 +1,130 @@
-/* *{
-    font-size:30px ;
-} */
 
-
-p{
-    color: blue;
-
-}
-ul li{
-    color: rgb(136, 14, 14);
-    list-style: none;
-    font-style: italic;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-body{
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
-
-#FIRST{
-    color: chartreuse;
-    font-style:italic;
-
-}
-
-#SECOND{
-    color: darkblue;
-    font-size: large;
-    text-shadow: black;
-}
-
-.definitions{
-    border-radius: 20px;
-    background: yellow;
-    height: 10%;
-    width: 30%;
-    box-sizing:border-box;
-    box-shadow:black;
-    border-color:blue;
-    border-style: solid;
-    float: right;
-}
-
-.illustrations{
-    box-sizing: content-box;
-    background-color: red;
-    border-style: outset;
-    height: 60%;
-    width: 40%;
-    border-inline-start-color: chartreuse;
-}
-#THIRD{
-    color: cyan;
-    font-style: italic;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: larger;
-}
-
-.dan{
-    border-style: inset;
-    border-color: rgba(128, 255, 0, 0.973);
-    text-shadow: rgb(252, 167, 106);
-    color : rgb(96, 146, 153);
+.hder {
+    background-color: #f1f1f1;
+    padding: 20px;
     text-align: center;
-    width: 105%;
-    box-align: right;
+    font-style: oblique;
+    text-shadow: rgb(221, 79, 79);
+    color: rgb(51, 24, 24);
+    background-color: rgb(180, 214, 180);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
-
-#one{
-    font-style: italic;
-    font-size: small;
-    color: rgb(226, 130, 181);
-    font-family:'Segoe UI';
+.hder li{
+    display: inline-block;
 }
-#two{
-    font-style: italic;
-    font-size: small;
-    color: rgb(226, 130, 181);
-    font-family: sans-serif;
-    background-color: whitesmoke;
+.hder img{
+    margin-left: 500px;
 }
-
-#TEN{
-    size: 1200px;
-
-}
-
-.din{
-    background-color: whitesmoke;
-    width: 50%;
-    background-size: 126%;
-}
-
-
-
-.den{
-    background-color: rgb(190, 85, 190);
-    width: 100%;
-    margin-top: 0.5%;
-}
-#three{
-    float: right;
-    background-color: yellow;
-    margin-top: -33.5%;
-    margin-right: -5.5%;
-    border-style: double;
-    
-}
-
 *{
-    background-color: rgb(200, 190, 243);
+    box-sizing: border-box;
+    border-color: aqua;
 }
+.nav{
+    overflow: hidden;
+    background-color: rgb(12, 12, 12);
+    /* size: 60%; */
+    /* border:3px solid rgb(96, 146, 153); */
+    /* margin:1% 30% 20% 2%; */
+    padding:0.2% 0.2% 0.2% 0.2% ;
+    /* border-radius: 23px; */
+    box-sizing: border-box;
+    /* margin-right: 1000px; */
+    width: 100%;
+}
+ .nav a{
+     margin-left: 10px;
+ }
+.foot{
+    margin-top: 500px;
+    padding: 20px;
+    text-align: center;
+    background-color:#f1f1f1;
+}
+.abt {
+    overflow: hidden;
+    background-color: rgb(161, 114, 114);
+    size: 60%;
+    border:3px solid rgb(96, 146, 153);
+    margin:1% 30% 20% 2%;
+    padding:0.2% 0.2% 0.2% 0.2% ;
+    border-radius: 23px;
+    box-sizing: border-box;
+    margin-right: 1000px;
+    width: 70px;
+}
+.nav li{
+    list-style: none;
+    display: inline-flex;
+    margin-left: 70px;
+}
+.nav li a{
+    text-decoration: none;
+    color: gold;
+}
+
+.buttons img{
+    height: 40px;
+}
+.servics ol{
+    border: 3px solid rgb(161, 114, 114);
+    box-sizing: content-box;
+    color: coral;
+
+}
+.container {
+    padding: 16px;
+    background-color: white;
+  }
+  
+  /* Full-width input fields */
+  .container input{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Overwrite default styles of hr */
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  /* Set a style for the submit button */
+  .registerbtn {
+    background-color: #000000;
+    color: gold;
+    padding: 10px 20px;
+    margin: 2px 0;
+    border: none;
+    cursor:pointer;
+    width: 50%;
+    opacity: 0.7;
+    margin-left: 25%;
+  }
+  
+  .registerbtn:hover {
+    opacity: 1;
+  }
+  
+  /* Add a blue text color to links */
+  a {
+    color: dodgerblue;
+  }
+  
+  /* Set a grey background color and center the text of the "sign in" section */
+  .signin {
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+  .container label{
+      color: gold;
+  }
